@@ -226,7 +226,10 @@ p {
 /* Testimonials */
 #testimonials {
     height: 600px;
-    background: url('../img/showcase2.jpg') no-repeat bottom center/cover;
+    background-image: linear-gradient(#000d, #0003), url('../img/showcase2.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
     padding-top: 100px;
 }
 
