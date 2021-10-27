@@ -28,6 +28,12 @@ p {
 }
 
 /* Utility Classes */
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1100px;
@@ -181,4 +187,10 @@ p {
 
 .box i {
     margin-bottom: 20px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    padding: 20px;
 }
