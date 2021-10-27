@@ -86,6 +86,20 @@ p {
     color: #333;
 }
 
+.l-heading {
+    font-size: 40px;;
+}
+
+/* Padding */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* Margin */
+.my-1 { margin: 10px 0; }
+.my-2 { margin: 20px 0; }
+.my-3 { margin: 30px 0; }
+
 /* Navbar */
 #navbar {
     background-color: #333;
@@ -158,7 +172,7 @@ p {
 #home-info .info-img {
     float: left;
     width: 50%;
-    background-image: url('../img/photo-1x.jpg');
+    background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('../img/photo-1x.jpg');
     background-repeat: no-repeat;
     background-position: bottom right;
     min-height: 100%;
@@ -187,6 +201,26 @@ p {
 
 .box i {
     margin-bottom: 20px;
+}
+
+/* About Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
 }
 
 /* Footer */
